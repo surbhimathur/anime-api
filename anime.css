@@ -1,0 +1,98 @@
+*{
+    font-family: 'Libre Baskerville', serif;
+    font-weight:400;
+}
+
+body{
+    min-height:100vh;
+    background-image: linear-gradient(to right, #80d0c7, #4fc4cf, #00b7db, #00a7e6, #0093e9);
+    
+}
+.search_box{
+   
+    height:50px;
+    width:auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:15px;
+    margin:20px 20px;
+
+}
+.series_list{
+  
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    flex-wrap: wrap;
+    gap:30px;
+    margin:40px 20px;
+    justify-content: center;
+    
+}
+.search_data{
+    width:300px;
+    padding:10px;
+    border-radius:5px;
+    border:none;
+    font-size:14px;
+    
+}
+  
+.search_button {
+    border:none;
+    background:transparent;
+}
+.search_button:hover{
+cursor:pointer;
+transform:scale(1.1);
+}
+.search_button i{
+
+    font-size:35px;
+    color:white;
+    
+}
+.series_container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+   border-radius:5px;
+   
+    
+}
+.poster{
+    width:300px;
+    height:300px;
+    object-fit: cover;
+   
+}
+.series_details{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    margin:20px 0px;
+}
+.series_details p{
+    font-size:14px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight:400;
+    color:white;
+    margin-top:0px;
+    
+}
+i{
+    margin-right:5px;
+    font-size:16px;
+    
+   
+}
+#title{
+    font-size:16px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight:700;
+    color:black;
+    
+}
+
